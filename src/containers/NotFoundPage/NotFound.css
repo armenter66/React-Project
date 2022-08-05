@@ -1,0 +1,13 @@
+.error__img {
+	width: 250px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.error__location {
+	margin-top: 30px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: var(--text-shadow-blue);
+}

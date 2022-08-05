@@ -1,0 +1,40 @@
+.UiButton__btn {
+	min-width: 100px;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-weight: 600;
+	background: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+.UiButton__btn:disabled,
+.UiButton__btn:disabled:hover {
+	color: #9c9c9c;
+	background-color: transparent;
+	border-color: #9c9c9c;
+	cursor: auto;
+}
+
+.dark {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.light {
+	border: 1px solid #000;
+	color: #000;
+}
+
+.dark:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.light:hover {
+	background-color: #000;
+	color: #fff;
+}
